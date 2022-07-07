@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Portfolio
+        </title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <style>
+            header{
+                border:5px black;
+                box-shadow:2px 2px 2px gray;
+                padding:10px;
+                display:flex;
+                justify-content: space-between;
+            }
+            .title{
+                font-size: larger;
+                font-weight: bold;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: blue;
+                 
+            }
+            .nav-bar{
+                display: flex;
+                
+            }
+            .nav-bar div{
+                margin-right: 30px;
+                
+            }
+            .side-panel{
+                font-size:30px ;
+                font-family:Arial, Helvetica, sans-serif;
+                text-align: center;
+                width:600px;
+            }
+            .banner {
+            margin-top: 5px;
+            box-shadow: 2px 2px 2px gray;
+            border:3px solid gray;
+            background-image: url("/Images/banner.png");
+            height: 300px;
+        }
+        </style>
+    </head>
+
+        <body class="container-fluid">
+            <header>
+                <div class="title">
+                    PORTFOLIO
+                </div>
+                <div class="nav-bar">
+                    <div>Home</div>
+                    <div>About</div>
+                    <div>Services</div>
+                    <div>My Projects</div>
+                </div>
+            </header>
+            <div class="banner">
+               <div class="side-panel">
+                 <div>
+                    <h1>Iam a Web Designer</h1>
+                    <p>Check My Projects</p>
+                    <div>
+                        <button class="btn btn-danger">Sign in</button>
+                        <button class="btn btn-warning">Register</button>
+                    </div>
+                 </div>
+               </div>
+            </div>
+    
+    </body>
+</html>
